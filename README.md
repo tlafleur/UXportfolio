@@ -1,4 +1,4 @@
-UXportfolio
-===========
+UX Portfolio
+============
 
-The User Experience Portfolio of Travis LaFleur
+The User Experience Portfolio of Travis LaFleur – http://tlafleur.github.com/UXportfolio/
