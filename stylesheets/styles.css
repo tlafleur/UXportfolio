@@ -251,6 +251,10 @@ footer p {
     top:52px;
   }
   
+  h3:first-child {
+  	margin-top: 20px;
+  }
+  
 }
 
 @media print, screen and (max-width: 720px) {
