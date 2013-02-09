@@ -38,6 +38,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 44px 0;
 }
 
+p:last-child {
+	margin: 0 0 25px 0;
+}
+
 h1 {
   font-size:32px;
 }
@@ -233,7 +237,7 @@ footer p {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    padding:5px 0;
     margin:0 0 20px;
   }
   
@@ -266,6 +270,25 @@ footer p {
     word-wrap:normal;
   }
   
+  #top, #bottom, #left, #right {
+		background: #0D5C89; /* light blue */
+		position: fixed;
+		z-index: 50;
+		}
+		#left, #right {
+			top: 0; bottom: 0;
+			width: 5px;
+			}
+			#left { left: 0; }
+			#right { right: 0; }
+			
+		#top, #bottom {
+			left: 0; right: 0;
+			height: 5px;
+			}
+			#top { top: 0; }
+			#bottom { bottom: 0; 
+			}
   
 }
 
