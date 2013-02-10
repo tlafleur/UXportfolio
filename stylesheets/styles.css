@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:18px/1.5 josefin-slab, serif;
+  font:19px/1.5 josefin-slab, serif;
   color:#474647; /* light grey */
   font-weight:300;
 }
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 44px 0;
+  margin:0 0 0px 0;
 }
 
 p:last-child {
@@ -51,6 +51,15 @@ h2 {
 /*   margin-top: -10px; */
 }
 
+h3 {
+	font-size: 26px;
+	line-height: 1.4;
+}
+
+h4 {
+	font-size: 20px;
+}
+
 h3, h4, h5, h6 {
   color:#494949;
 }
@@ -63,6 +72,9 @@ a {
 
 a:hover, a:active {
   text-decoration: none;
+/*   color: #0D5C89; */
+/*   font-weight:700; */
+  
 }
 
 a small {
@@ -204,6 +216,14 @@ hr {
   margin:0 0 20px;
 }
 
+hr.seperator {
+	border: none;
+	border-top: dashed 2px #e5e5e5;
+	color: #ffffff;
+	background-color: #ffffff;
+	margin: 25px 0 25px 0;
+}
+
 footer {
   width:270px;
   float:left;
@@ -235,7 +255,7 @@ footer p {
   }
   
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #C3C2C4;
     border-width:1px 0;
     padding:5px 0;
     margin:0 0 20px;
