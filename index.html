@@ -99,9 +99,10 @@
     
     <script type="text/javascript" charset="utf-8">
       $(function() {
-          $("img").lazyload({
-          	// effect : "slideDown"
-          });
+          $("img.lazy").lazyload({ threshold : 150 });
+          // $("img").lazyload({
+//           	effect : "slideDown"
+//           });
           $("img.lazy").show().lazyload();
       });
     </script>
